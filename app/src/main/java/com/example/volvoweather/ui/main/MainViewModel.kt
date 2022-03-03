@@ -97,7 +97,22 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 }
             }
             else{
-                dataDay = weatherData.value?.properties?.timeseries!![1]
+
+
+                if(weatherData.value?.properties?.timeseries!![1] != null){
+                    dataDay = weatherData.value?.properties?.timeseries!![1]
+                }
+                else{
+                    dataDay = weatherData.value?.properties?.timeseries?.find { day ->
+                        LocalDate.parse(
+                            day.time.substring(
+                                0,
+                                10
+                            )
+                        ) == forecastDate
+                    }
+                }
+
             }
 
 
