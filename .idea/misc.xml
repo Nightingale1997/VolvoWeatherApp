@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/es041062/AndroidStudioProjects/VolvoWeather/app/src/main/res/layout/main_activity.xml" value="0.25" />
+        <entry key="..\:/Users/es041062/AndroidStudioProjects/VolvoWeather/app/src/main/res/layout/main_fragment.xml" value="0.44801512287334594" />
+        <entry key="..\:/Users/es041062/AndroidStudioProjects/VolvoWeather/app/src/main/res/layout/weekday.xml" value="0.42864583333333334" />
+        <entry key="..\:/Users/es041062/OneDrive - i3tex AB/Dokument/GitHub/VolvoWeatherApp/app/src/main/res/layout/main_fragment.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
